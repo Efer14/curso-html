@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Toros Negros</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            height: 80%;
+            width: 80%;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .imagen1 {
+            float: right;
+            margin-left: 200px;
+            max-width: 30%;
+            height: 20%;
+
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Toros Negros</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a class="active" href="comida.html">Comida</a></li>
+                <li><a href="anime.html">Anime</a></li>
+                <li><a href="sabermas.html">¿Queres saber mas?</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin: 15px;">A comerrrrr</h2>
+    <hr>
+
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color:rgb(133, 130, 127)">
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <th></th>
+            <th>Opinion sobre <br> Nomobatatas</th>
+            <th>Opinion sobre <br>serpientes moradas</th>
+
+            <tr>
+                <td>Yami</td>
+                <td>No le importan, prefiere carne</td>
+                <td>No se le antojan, prefiere bisteques.</td>
+            </tr>
+            <tr>
+                <td>Asta</td>
+                <td>Le encantan, son su energía mágica.</td>
+                <td>Curioso, pero prefiere nomobatatas.</td>
+            </tr>
+            <tr>
+                <td>Noelle</td>
+                <td>Le gustan en platos con agua.</td>
+                <td>Intrigada, pero opta por otra comida.</td>
+            </tr>
+            <tr>
+                <td>Finral</td>
+                <td>Las evita, le recuerdan a portales.</td>
+                <td>Desconfiado, prefiere comida común.</td>
+            </tr>
+            <tr>
+                <td>Luck</td>
+                <td>Las devora como a cualquier cosa.</td>
+                <td>Le parece extraño, prefiere bocadillos.</td>
+            </tr>
+            <tr>
+                <td>Charmy</td>
+                <td>¡Son su nuevo ingrediente secreto!</td>
+                <td>Desaparece cuando ve la serpiente.</td>
+            </tr>
+            <tr>
+                <td>Magna</td>
+                <td>Le gustan asadas, estilo batalla.</td>
+                <td>No se anima, prefiere su comida usual.</td>
+            </tr>
+            <tr>
+                <td>Vanessa</td>
+                <td>Ni las nota, está ocupada bebiendo.</td>
+                <td>Se distrae con la serpiente y la prueba.</td>
+            </tr>
+
+        </table>
+
+        <img class="imagen1" src="/assets/imgs/img anime/charmy_pappitson___black_clover_by_sayuricell_deeovo5-pre.png"
+            alt="Charmy comiendo">
+    </div>
+
+
+
+
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+
+</html>

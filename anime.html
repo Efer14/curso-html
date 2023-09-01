@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Toros Negros</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: 70%;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+        .imagen1 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 15%;
+            height: auto;
+        }
+
+        .imagen2 {
+            float: right;
+            margin: 0 20px 20px 0;
+            max-width: 15%;
+            height: auto;
+        }
+
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Toros Negros</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="comida.html">Comida</a></li>
+                <li><a class="active" href="anime.html">Anime</a></li>
+                <li><a href="sabermas.html">¿Queres saber mas?</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="centrado">
+        <img class="imagen1" src="assets/imgs/Asta_anime_profile.webp" alt="Asta">
+        <video class="centrado" src="assets/videos/Black Clover - Opening 1 _ Haruka Mirai.mp4" controls>Opening
+            1</video>
+        <img class="imagen2" src="assets/imgs/Noelle_Silva_anime_perfil.webp" alt="Noelle">
+
+    </div>
+    <section class="centrado">
+        <div class="gallery">
+            <a href="assets/imgs/img anime/06499315fcce92197cdce7bcd343b091.jpg" target="_blank"><img
+                    src="assets/imgs/img anime/06499315fcce92197cdce7bcd343b091.jpg" alt="toros imagen1"
+                    width="600px"></a>
+            <div class="desc"> Toros 1</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/imgs/img anime/abc794f910bcaf2406558232ac21852d62a928e0r1-1024-574v2_uhq.jpg"
+                target="_blank"><img
+                    src="assets/imgs/img anime/abc794f910bcaf2406558232ac21852d62a928e0r1-1024-574v2_uhq.jpg"
+                    alt="toros imagen2" width="600px"></a>
+            <div class="desc"> Toros 2</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/imgs/img anime/black_clover_netflix.jpg" target="_blank"><img
+                    src="assets/imgs/img anime/black_clover_netflix.jpg" alt="toros imagen3" width="600px"></a>
+            <div class="desc"> Toros 3</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/imgs/img anime/EcR0-z8XgAEHWzh.jpg" target="_blank"><img
+                    src="assets/imgs/img anime/EcR0-z8XgAEHWzh.jpg" alt="toros imagen4" width="600px"></a>
+            <div class="desc"> Toros 4 </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+
+</html>
